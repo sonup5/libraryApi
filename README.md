@@ -1,11 +1,12 @@
-# Login-Signup Api
+# Library api
 
-This Api will going to handle all the stuff that is needed for User  authentication and registration processes
+This Api will going to handle all the stuff for mangagin Library
 
 # Features
 
 1. Password Hashing
 2. Tokenization
+3. search book by query parameter
 
 # usage:
 
@@ -19,7 +20,6 @@ This Api will going to handle all the stuff that is needed for User  authenticat
   <h6> Note: Input Field name should be <br> <br> 1. For userIdentification either email or unique UserName : 'userField' <br> 2. For password Field: 'password'
 
 ---
-
 
 ### Request format :
 
