@@ -43,6 +43,12 @@ POST :  `admin/postBook`
 2. For Login
 
    ![1707927366348](image/README/1707927366348.png)
+   3. For posting Book  :
+
+   ![1708049345034](image/README/1708049345034.png)
+   4 . when requesting for particular book:
+
+   ![1708049597815](image/README/1708049597815.png)
 
    # Response Fromat:
 
@@ -55,3 +61,9 @@ POST :  `admin/postBook`
    2. For Login :
 
       ![1707927513729](image/README/1707927513729.png)
+   3. when bookGet Posted:
+
+      ![1708049440882](image/README/1708049440882.png)
+
+      4. when we request for Particular book
+         ![1708049537495](image/README/1708049537495.png)
