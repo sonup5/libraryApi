@@ -12,12 +12,24 @@ This Api will going to handle all the stuff for mangagin Library
 
 **Endpoints:**
 
-* POST :  `user/signup`
 
-  <h6>Note: Input Field name should be <br><br> 1. For username : 'username' <br> 2. For email : 'email' <br> 3. For password : 'password'
-* POST :  `user/login`
+POST :  `user/signup`
 
-  <h6> Note: Input Field name should be <br> <br> 1. For userIdentification either email or unique UserName : 'userField' <br> 2. For password Field: 'password'
+<h6>Note: Input Field name should be <br><br> 1. For username : 'username' <br> 2. For email : 'email' <br> 3. For password : 'password'
+
+
+POST :  `user/login`
+
+<h6> Note: Input Field name should be <br> <br> 1. For userIdentification either email or unique UserName : 'userField' <br> 2. For password Field: 'password'
+
+
+POST :  `admin/postBook`
+
+<h4> note: it is only accessible when user or Admin is logined<br> note: input field should be named as Follows:<br> 1. bookName:'bookName' <br> 2. author: 'author' <br> 3. genre: 'genre' <br> 4. token: 'token' (token should is provided as token verification is done in serverSide)
+
+* POST :` /getBook/:bookName`
+
+  <h4> A particular book can be searched using book name it accpt a query string parameter 
 
 ---
 
